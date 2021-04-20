@@ -1,5 +1,16 @@
-//TODO: Step 2 - Create a new class called Story.
+import 'package:flutter/material.dart';
 
-//TODO: Step 3 - Create 3 properties for this class, A. storyTitle to store the story text. B. choice1 to store the text for choice 1, C. choice2 to store the text for choice 2.
+///Story holds the current story text as well as the choice1 and choice2 text
+class Story {
+  ///Constructor for Story object
+  Story({this.storyTitle, this.choice1, this.choice2});
 
-//TODO: Step 4 - Create a Constructor for this class to be able to initialise the properties created in step 3.
+  ///Stores the current story text
+  String storyTitle;
+
+  ///Stores the story text for choice1
+  String choice1;
+
+  ///Stores the story text for choice2
+  String choice2;
+}
